@@ -46,7 +46,7 @@ const HomeScreen = ({ navigation,route }) => {
         color="orange"
         onPress={() => navigation.navigate('ClassMainForeignCurrency', { name: 'Component Class Foreign Currency' })} />
 
-    <Button
+      <Button
         title='Döviz Function'
         color="pink"
         onPress={() => navigation.navigate('FunctionMainForeignCurrency', { name: 'Component Function Foreign Currency' })} />

@@ -9,9 +9,6 @@ function FunctionCurrencyChange() {
     const [eurCurrency,setEurCurrency]=useState(null);
     const [usdCurrency,setUsdCurrency]=useState(null);
     const [inputData,setInputData]=useState(null);
-
-
-
     const {currencyCss,inputCss,textCss}=styles
 
     //RETURN
@@ -38,14 +35,18 @@ function FunctionCurrencyChange() {
 }
 //CSS
 const styles = StyleSheet.create({
+
 currencyCss:{paddingTop: -10,},
+
 inputCss:{height: 28},
+
 textCss:{   
  color: "blue",
  fontSize: 20,
  fontWeight: "bold",
  marginTop: 10
-}
+ }
+ 
 })
 
 //EXPORT

@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function FooterForeignCurrency() {
   return (
     <View style={styles.container}>
-      <Text style={styles.headerText}>Footer APP</Text>
+      <Text style={styles.headerText}>Footer APP @copy Tüm haklar saklıdır.</Text>
       <StatusBar style="auto" />
     </View>
   );

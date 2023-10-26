@@ -2,7 +2,6 @@
 import { StyleSheet, StatusBar,Text, View } from 'react-native';
 import HeaderForeignCurrency from './HeaderForeignCurrency';
 import FooterForeignCurrency from './FooterForeignCurrency';
-import ClassCurrencyChange from './ClassCurrencyChange';
 import FunctionCurrencyChange from './FunctionCurrencyChange';
 
 export default function FunctionMainForeignCurrency() {
@@ -11,8 +10,7 @@ export default function FunctionMainForeignCurrency() {
       
       <HeaderForeignCurrency headerTextData='Currency  Data Change'/>
       
-      {/* <ClassCurrencyChange /> */}
-      <ClassCurrencyChange />
+      <FunctionCurrencyChange />
       
       <FooterForeignCurrency footerTextData='@copy ; Tüm hakları saklıdır.'/> 
      

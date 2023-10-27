@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function HeaderForeignCurrency() {
   return (
     <View style={styles.container}>
-      <Text style={styles.headerText}>HEADER APP</Text>
+      <Text style={styles.headerText}>DÖVİZ UYGULAMASI</Text>
       <StatusBar style="auto" />
     </View>
   );

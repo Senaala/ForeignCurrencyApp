@@ -59,7 +59,8 @@ npm install --save @react-native-firebase/app
 # Using Yarn
 yarn add @react-native-firebase/app
 
-
+packege.json
+npm install axios --save 
 ##################################################
 app.json 
 android package : com.android.currency

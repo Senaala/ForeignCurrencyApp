@@ -15,6 +15,8 @@ constructor(props){
         inputData:'',
         rates:[],
     }
+    debugger;
+    console.log('Constructor');
     //Bind objeyi burada bağlamak gerek
     this.getCurrencyRates=this.getCurrencyRates.bind(this);
 }//Constructor End
